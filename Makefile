@@ -12,7 +12,7 @@ Command.o: Command.h Command.cpp
 Interpreter.o: Interpreter.h Interpreter.cpp
 	g++ -g -Wall -c Interpreter.cpp -std=c++11 -o Interpreter.o
 
-hw5: hw5.cpp ArithmeticExpression.o BooleanExpression.o Command.o Interpreter.o
+Basic_Intepreter: Basic_Intepreter.cpp ArithmeticExpression.o BooleanExpression.o Command.o Interpreter.o
 	g++ -g -Wall Basic_Intepreter.cpp ArithmeticExpression.o BooleanExpression.o Command.o Interpreter.o -std=c++11 -o Basic_Intepreter
 
 .PHONY: clean
