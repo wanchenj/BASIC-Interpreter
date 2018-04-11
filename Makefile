@@ -1,4 +1,4 @@
-all: BI
+all: BASIC-Interpreter
 
 ArithmeticExpression.o: ArithmeticExpression.h ArithmeticExpression.cpp
 	g++ -g -Wall -c ArithmeticExpression.cpp -std=c++11 -o ArithmeticExpression.o
