@@ -1,7 +1,7 @@
 # BASIC-Interpreter
 
 
-This is a partial BASIC parser and interpreter coded by me in C++. It can process Variables [VAR], Arithmetic Expressions [AEXPR], Boolean Expressions [BEXPR], and some of the most commonly used Commands: ([LINE] indicates current line number, [LINEJ] indicates the line we want to go to.)
+This is a partial BASIC parser and interpreter I coded in C++. It can process Variables [VAR], Arithmetic Expressions [AEXPR], Boolean Expressions [BEXPR], and some of the most commonly used Commands: ([LINE] indicates current line number, [LINEJ] indicates the line we want to go to.)
 
 
   [LINE] PRINT [AEXPR]: prints the value of the arithmetic expression.
